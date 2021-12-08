@@ -3,6 +3,7 @@
 
 body{
 	margin: 0;
+	overflow-x: hidden;
 }
 
 .header{
@@ -250,7 +251,7 @@ width:auto;
 	width:85%;
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
 margin: auto;
 	z-index: 99;
 }
@@ -277,6 +278,57 @@ margin: 20px;
 	width:100%;
 	height: 20vw;
 	object-fit: cover;
+}
+
+.LATEST-TOPICS{
+width:85%;
+	margin: auto;
+	display: flex;
+}
+
+.LATEST-TOPICS-title{
+	width:50%;
+display: flex;
+justify-content: flex-start;
+margin-top: -70px;
+}
+
+.LATEST-TOPICS-menu{
+	width:100%;
+display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.LATEST-TOPICS-menu a{
+text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color:black;
+}
+
+.LATEST-TOPICS-menu a span{
+color:#E1D8D8;
+}
+
+#read-more{
+	padding: 5px 20px;
+width:auto;
+	background:black;
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+}
+
+.topics{
+		width:100%;
+	}
+
+.topics li{
+	padding: 10px 0px;
+	
+	list-style: none;
+border-bottom: solid 2px #D7C8C9;
 }
 
 @media screen and (max-width:768px){
@@ -334,10 +386,35 @@ width:65%;
 	height: 35vw;
 	object-fit: cover;
 }
+	
+.LATEST-TOPICS{
+width:90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+	
+	.LATEST-TOPICS-menu{
+	width:100%;
+display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+	
+	.topics{
+		width:95%;
+	}
+	
+	.topics li{
+		margin-left: -40px;
+		width:100%;
+	}
 }
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:376px){
 .header-right-menu{
 	display: flex;
 	flex-direction: column;
@@ -347,13 +424,14 @@ width:65%;
 }	
 	
 .header-right-menu p{
+	margin-left:-70px;
 	font-size: 15px;
 	font-weight: bold;
 }
 
 .header-right-menu h1{
 	font-size: 35px;
-	margin-left:-50px;
+	margin-left:-70px;
 }
 	
 	.drawer{
@@ -366,11 +444,16 @@ width:65%;
 		 border-top:solid 2px;
 	}
 	
+	.drawer:after{
+	transform: translateX(22px);
+}
+	
 	.about-menu{
 width:80%;
+		padding: 50px 10px;
 	}
 	
-	.works-culture-menu{
+	.works-culture{
 	width:100%;
 	display: flex;
 	flex-direction: column;
@@ -383,20 +466,16 @@ justify-content: center;
 	width:95%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items:center;
+	justify-content:center;
+	align-items: flex-start;
 	}
 	
-	.works-culture-menu article img{
+	.works-culture-menu img{
 	width:95%;
-	height: 100vw;
+	height: 35vw;
 	object-fit: cover;
 }
+
 }
 
 	
-
-
-
-
-
