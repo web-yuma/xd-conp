@@ -510,8 +510,8 @@ display: flex;
 }
 
 .header-right-menu h1{
-	font-size: 35px;
-	margin-left:20px;
+	font-size: 45px;
+	margin-left:40px;
 }
 	
 	.drawer{
@@ -522,11 +522,11 @@ display: flex;
 	#drawer-open span{
 	width:18px;
 		 border-top:solid 2px;
-		transform: translateX(-7px)
+		transform: translateX(-9px)
 	}
 	
 	.drawer:after{
-	transform: translateX(15px);
+	transform: translateX(17px);
 }
 	
 	.about{
