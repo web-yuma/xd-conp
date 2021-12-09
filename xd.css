@@ -527,7 +527,8 @@ display: flex;
 	}
 	
 	.drawer:after{
-	margin-left: -18px;
+		font-size:10px;
+	margin-left: -15px;
 }
 	
 	.about{
