@@ -412,8 +412,8 @@ height: 120vw;
 
 .header-right-menu h1{
 	margin-top: 0px;
-	
 	margin-left:-70px;
+	
 	font-size: 45px;
 }
 	
@@ -493,7 +493,7 @@ display: flex;
 }
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:376px){
 .header-right-menu{
 	width:80%;
 	display: flex;
@@ -510,8 +510,9 @@ display: flex;
 }
 
 .header-right-menu h1{
-	font-size: 55px;
-	margin-left:40px;
+	font-size: 50px;
+	margin-left:32px;
+	letter-spacing: 3px;
 }
 	
 	.drawer{
@@ -522,11 +523,11 @@ display: flex;
 	#drawer-open span{
 	width:18px;
 		 border-top:solid 2px;
-		transform: translateX(-9px)
+		transform: translateX(-7px)
 	}
 	
 	.drawer:after{
-	transform: translateX(17px);
+	transform: translateX(15px);
 }
 	
 	.about{
