@@ -523,6 +523,7 @@ display: flex;
 	#drawer-open span{
 	width:18px;
 		 border-top:solid 2px;
+		margin-left: -5px;
 	}
 	
 	.drawer:after{
