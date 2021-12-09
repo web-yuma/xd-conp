@@ -170,7 +170,7 @@ height: 50vw;
 
 
 .header-right-menu{
-	width:auto;
+	width:40%;
 	height: 50vw;
 	position:absolute;
 	top:20%;
@@ -406,7 +406,7 @@ height: 120vw;
 	
 .header-right-menu p{
 	margin-left: -50px;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
 }
 
@@ -522,11 +522,11 @@ display: flex;
 	#drawer-open span{
 	width:18px;
 		 border-top:solid 2px;
-		transform: translateX(-20px)
+		transform: translateX(-7px)
 	}
 	
 	.drawer:after{
-	transform: translateX(0px);
+	transform: translateX(15px);
 }
 	
 	.about{
@@ -534,8 +534,8 @@ display: flex;
 	}
 	
 	.about-menu{
-width:90%;
-		padding: 50px 0px;
+width:80%;
+		padding: 50px 15px;
 	}
 	
 	.works-culture{
@@ -564,6 +564,7 @@ justify-content: center;
 	.CONTACT-box{
 	width:100%;
 	}
+
 }
 
 	
