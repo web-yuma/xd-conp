@@ -476,7 +476,7 @@ display: flex;
 }
 
 .message-menu{
-padding: 50px 80px;
+padding: 100px 80px;
 background:#D8D8D8;
 }
 
@@ -680,12 +680,16 @@ height: 65vw;
 	width:95%;
 	}
 	
+	.visition{
+		margin-top: -50px;
+	}
+	
 	.CEO-MESSAGE{
 	width:70%;
 	}
 	
 	.message-menu{
-padding: 80px;
+padding:80px 30px;
 }
 	
 	.CEO-MESSAGE img{
