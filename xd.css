@@ -713,11 +713,11 @@ padding: 80px;
 .information-menu{
 	width:100%;
 }
-
+	
 .information iframe{
 width:95%;
 height: 400px;
-}
+	}
 
 }
 
@@ -877,7 +877,7 @@ height: 110vw;
 
 .visition{
 width:auto;
-margin-top: 100px;
+margin-top: 50px;
 }
 
 .visition-menu{
@@ -897,7 +897,7 @@ display: flex;
 }
 
 .message-menu{
-padding: 100px 30px;
+padding: 50px 30px;
 }
 
 .CEO-MESSAGE img{
