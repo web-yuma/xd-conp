@@ -703,6 +703,7 @@ padding:80px 30px;
 	
 	.information{
 	width:95%;
+		margin-top: 50px;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
