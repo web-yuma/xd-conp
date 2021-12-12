@@ -377,6 +377,155 @@ margin-top: 20px;
 	width:100%;
 }
 
+.about_us{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height:35vw;
+	margin: auto;
+	background:white;
+	z-index: 200;
+}
+
+.about_us-left img{
+position: absolute;
+	left:0;
+width:80%;
+	height:30vw;
+	object-fit:cover;
+	object-position: 100% 30%;
+	z-index: 100;
+}
+
+
+.about_us-right{
+	position: absolute;
+	right: 0%;
+display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+width:60%;
+height: 35vw;
+	background:#2B2A2A;
+	z-index: 99;
+}
+
+
+.about_us-right-menu{
+	width:30%;
+	height:auto;
+	position:absolute;
+   top:10%;
+	right:0%;
+	padding: 50px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items: flex-start;
+	z-index: 102;
+}
+
+.about_us-right-menu h1{
+	position: relative;
+	margin-top: 10px;
+	font-size:2.4em;
+	font-weight:bold;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	color: white;
+}
+
+.about_us-right-menu p{
+	margin-top: -20px;
+	font-size: 16px;
+	font-weight: 300;
+	color: white;
+}
+
+.about_us-right-menu h1:after{
+content:"";
+}
+
+.company-wrap{
+	width:80%;
+	display: flex;
+	flex-direction: column;
+
+	margin: auto;
+}
+
+.visition{
+width:auto;
+margin-top: 100px;
+}
+
+.visition-menu{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.CEO-MESSAGE{
+	width:60%;
+	margin-top: 200px;
+	position: relative;
+display: flex;
+	flex-direction: column;
+}
+
+.message-menu{
+padding: 50px 80px;
+background:#D8D8D8;
+}
+
+.CEO-MESSAGE img{
+	position: absolute;
+	top:-100px;
+	left:-300px;
+	width:100%;max-width: 330px;
+	object-fit: none;
+	object-position: 50% 50%;
+}
+
+.information{
+	width:90%;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.information-title{
+	width:100%;
+	border-bottom:solid 2px #E1DDDD;
+	margin: auto;
+}
+
+.information-menu{
+	width:80%;
+}
+
+.information-nav{
+margin-top: 0px;
+}
+
+ .information-nav li{
+list-style: none;
+padding: 5px 0px;
+border-bottom:solid 2px #E1DDDD;
+}
+
+.company{
+	display: flex;
+}
+
+.company:nth-child(even){
+ flex-direction:row-reverse;
+}
+
+
 @media screen and (max-width:768px){
 .header{
 	width: 100%;
@@ -392,7 +541,7 @@ width:80%;
 }
 	
 .header-right{
-width:100%;
+width:60%;
 height: 120vw;
 }
 	
@@ -463,7 +612,7 @@ display: flex;
 	}
 	
 	.topics li{
-		width:100%;
+		width:95%;
 	}
 	
 	.CONTACT-back{
@@ -490,31 +639,124 @@ display: flex;
 		margin: 0;
 	width:85%;
 	}
-}
-
-
-@media screen and (max-width:375px){
-.header-right-menu{
-	width:80%;
-	display: flex;
-	flex-direction: column;
-	justify-content:flex-start;
-	align-items: center;
 	
+	.about_us{
+	width: 100%;
+	height:130vw;
 }	
 	
-.header-right-menu p{
-	margin-left:30px;
-	font-size: 15px;
-	font-weight: bold;
-}
-
-.header-right-menu h1{
-	font-size: 50px;
-	margin-left:30px;
-	letter-spacing: 3px;
+.about_us-left img{
+width:70%;
+	height: 55vw;
+	object-fit:none;
+	object-position:50% 25%;
+	z-index: 100;
 }
 	
+.about_us-right{
+width:60%;
+height: 65vw;
+}
+	
+	.about_us-right-menu{
+		width:40%;
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		justify-content: center;
+	}
+	
+	.about_us-right-menu h1{
+	margin-top: 0px;
+	font-size:2.4em;
+}
+	
+.about_us-right-menu p{
+	font-size: 16px;
+	font-weight: bold;
+}
+	
+	.company-wrap{
+	width:95%;
+	}
+	
+	.CEO-MESSAGE{
+	width:70%;
+	}
+	
+	.message-menu{
+padding: 80px;
+}
+	
+	.CEO-MESSAGE img{
+	width:280px;
+		position: absolute;
+	top:-100px;
+	left:-120px;
+	object-fit:none;
+	object-position: 45% 55%;
+	}
+	
+	.information{
+	width:95%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+	.information-title{
+	width:100%;
+		margin: auto;
+}
+
+.information-menu{
+	width:100%;
+}
+	
+}
+
+
+@media screen and (max-width:376px){
+	.header{
+		height: 180vw;
+	}	
+
+.header-left img{
+width:70%;
+	height: 160vw;
+	object-fit:none;
+	object-position:50% 20%;
+	z-index: 100;
+}
+	
+.header-right{
+width:60%;
+height: 170vw;
+}
+	
+	.header-right-menu{
+		width:60%;
+		position: absolute;
+		top:20%;
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		justify-content: center;
+	}
+	
+	.header-right-menu h1{
+font-weight: 700;
+	margin-top: 0px;
+	font-size:3.5em;
+}
+	
+.header-right-menu p{
+	margin-left: -70px;
+	font-size: 1.2em;
+	margin-top: -40px;
+	font-weight: bold;
+}
 	.drawer{
 		position: fixed;
 		right: 8%;
@@ -523,7 +765,7 @@ display: flex;
 	#drawer-open span{
 	width:18px;
 		 border-top:solid 2px;
-		margin-left: -5px;
+		margin-left:-5px;
 	}
 	
 	.drawer:after{
@@ -538,7 +780,7 @@ display: flex;
 	.about-menu{
 width:80%;
 		padding: 50px 15px;
-	}
+	}	
 	
 	.works-culture{
 	width:100%;
@@ -563,10 +805,143 @@ justify-content: center;
 	object-fit: cover;
 }
 	
+	.topics{
+		width:100%;
+		margin-left: -40px;
+	}
+	
+	.topics li{
+		width:95%;
+	}
+	
 	.CONTACT-box{
 	width:100%;
 	}
+	
+.about_us-left img{
+width:70%;
+	height: 100vw;
+	object-fit:none;
+	object-position:50% 5%;
+	z-index: 100;
+}
+	
+.about_us-right{
+width:60%;
+height: 110vw;
+}
+	
+	.about_us-right-menu{
+		width:80%;
+		position: absolute;
+		top:20%;
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		justify-content: center;
+	}
+	
+	.about_us-right-menu h1{
+	margin-top: 0px;
+	font-size:2.8em;
+}
+	
+.about_us-right-menu p{
+	font-size: 16px;
+	margin-top: -40px;
+	font-weight: bold;
+}
 
+	.company{
+	display: flex;
+		flex-direction: column;
+
+}
+
+.company:nth-child(even){
+ flex-direction:column;
+}
+
+	.company-wrap{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+
+	margin: auto;
+}
+
+.visition{
+width:auto;
+margin-top: 100px;
+}
+
+.visition-menu{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+}
+
+.CEO-MESSAGE{
+	width:90%;
+	margin: auto;
+	margin-top: 200px;
+	position: relative;
+display: flex;
+	flex-direction: column;
+}
+
+.message-menu{
+padding: 100px 30px;
+}
+
+.CEO-MESSAGE img{
+	position: absolute;
+	top:-120px;
+	left:-20px;
+	width:100%;max-width: 330px;
+	object-fit: none;
+	object-position: 50% 50%;
+}
+
+.information{
+	width:95%;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.information-title{
+	width:100%;
+	border-bottom:solid 2px #E1DDDD;
+	margin: auto;
+}
+
+.information-menu{
+	width:95%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: auto;
+}
+
+.information-nav{
+	width: 90%;
+margin-top: 0px;
+}
+
+ .information-nav li{
+list-style: none;
+padding: 5px 0px;
+margin-left:-45px;
+border-bottom:solid 2px #E1DDDD;
+}
+
+.information iframe{
+width:95%;
+height: 400px;
+	}
 }
 
 	
