@@ -589,6 +589,37 @@ height: 30vw;
 	color: white;
 }
 
+.contact-menu{
+	width:70%;
+	height: 100vw;
+	margin: auto;
+}
+
+.contact-form span{
+margin-left: 20px;
+background: black;
+	color: white;
+	font-size: 12px;
+	padding:2px 5px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.textarea{
+	height: 300px;
+}
+
+.PRAIVACY-POLICY{
+	margin-top: 50px;
+	height: 250px;
+	overflow: scroll;
+	overflow-x: hidden;
+border: solid 1px;
+}
 
 
 @media screen and (max-width:768px){
@@ -791,6 +822,10 @@ padding:80px 30px;
 .information iframe{
 width:95%;
 height: 400px;
+	}
+	
+.CONTACT{
+	height: 90vw;
 	}
 	
 .CONTACT-left img{
