@@ -590,9 +590,18 @@ height: 30vw;
 }
 
 .contact-menu{
-	width:70%;
-	height: 100vw;
+	width:60%;
+	height:100vw;
 	margin: auto;
+}
+
+.contact-form{
+	width:100%;
+	height: 110vw;
+}
+
+.contact-form label{
+	margin-bottom: 10px;
 }
 
 .contact-form span{
@@ -604,6 +613,7 @@ background: black;
 }
 
 .form{
+	width:100%;
 	display: flex;
 	flex-direction: column;
 	margin-top: 20px;
@@ -615,10 +625,40 @@ background: black;
 
 .PRAIVACY-POLICY{
 	margin-top: 50px;
+	margin-bottom: 10px;
 	height: 250px;
 	overflow: scroll;
 	overflow-x: hidden;
 border: solid 1px;
+}
+
+.btn{
+	width:40%;
+	height: 50px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.button{
+	width:100%;
+    height: 50px;
+	cursor: pointer;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0%;
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:#616161;
+}
+
+.footer p{
+	color: white;
 }
 
 
@@ -862,6 +902,17 @@ right:10%;
 	margin-left: 0px;
 	font-weight: bold;
 }
+	
+	.contact-menu{
+	width:90%;
+	height: 100vw;
+	margin: auto;
+}
+	
+	.contact-form{
+		width:100%;
+		height: 150vw;
+	}
 }
 
 @media screen and (max-width:415px){
@@ -883,6 +934,33 @@ right:10%;
 		align-items:flex-end;
 		justify-content: flex-start;
 	}
+	
+	.contact-menu{
+	width:90%;
+	height: 100vw;
+	margin: auto;
+}
+	
+	.contact-form{
+		width:100%;
+		height: 250vw;
+	}
+	
+	.btn{
+	width:40%;
+	height: 50px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	margin-top:40px;
+}
+	
+	.button{
+	width:100%;
+    height: 50px;
+	cursor: pointer;
+		margin-top:0px;
+}
 }
 
 @media screen and (max-width:376px){
@@ -1145,6 +1223,17 @@ height: 85vw;
 	margin-top: -40px;
 	font-weight: bold;
 }
+	
+	.contact-menu{
+	width:85%;
+	height: 100vw;
+	margin: auto;
+}
+	
+	.contact-form{
+		width:100%;
+		height: 280vw;
+	}
 }
 
 	
