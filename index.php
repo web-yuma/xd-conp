@@ -234,8 +234,8 @@ if (count($error)===0){
 <div class="category-menu">
 <label><input type="radio" name="category" value="制作依頼" required>制作依頼</label>
 <label><input type="radio" name="category" value="採用">採用</label>
-<label></label><input type="radio" name="category" value="IR">IR</label>
-<label></label><input type="radio" name="category" value="その他">その他</label>
+<label><input type="radio" name="category" value="IR">IR</label>
+<label><input type="radio" name="category" value="その他">その他</label>
 
 <?php if ($error['category']==='blank'): ?>
 <p class="error-msg">カテゴリーをお選びください</p>
@@ -245,12 +245,12 @@ if (count($error)===0){
 
 <div class="form company-name">
 <label>会社名・団体名</label>
-<input id="form" type="text" name="company_name" value="<?php echo htmlspecialchars($post['company_name']); ?>" placeholder="会社名" required autofocus>
+<input type="text" name="company_name" value="<?php echo htmlspecialchars($post['company_name']); ?>" placeholder="会社名" required autofocus>
 </div><!--form company-name-->
 	
 <div class="form name">
 <label>お名前<span class="important">必須</span></label>
-<input id="form" type="text" name="name" value="<?php echo htmlspecialchars($post['name']); ?>" placeholder="氏名" required autofocus>
+<input type="text" name="name" value="<?php echo htmlspecialchars($post['name']); ?>" placeholder="氏名" required autofocus>
 <?php if ($error['name']==='blank'): ?>
 <p class="error-msg">名前をご記入ください</p>
 <?php endif; ?>
@@ -258,7 +258,7 @@ if (count($error)===0){
 	
 <div class="form mail-address">
 <label>メールアドレス<span class="important">必須</span></label>
-<input id="form" type="email" name="mail" value="<?php echo htmlspecialchars($post['mail']); ?>" placeholder="メールアドレス" required autofocus>
+<input type="email" name="mail" value="<?php echo htmlspecialchars($post['mail']); ?>" placeholder="メールアドレス" required autofocus>
 <?php if ($error['mail']==='blank'): ?>
 <p class="error-msg">メールアドレスをご記入ください</p>
 <?php endif; ?>
@@ -270,12 +270,12 @@ if (count($error)===0){
 	
 <div class="form tel">
 <label>電話番号</label>
-<input id="form" type="text" name="tel" value="<?php echo htmlspecialchars($post['tel']); ?>" placeholder="電話番号" required autofocus>
+<input type="tel" name="tel" value="<?php echo htmlspecialchars($post['tel']); ?>" placeholder="電話番号" required autofocus>
 </div><!--form tel-->
 	
 <div class="form menu">
 <label>お問い合わせ内容<span class="important">必須</span></label>
-<textarea id="form" name="menu" rows="15" placeholder="お問い合わせ内容" required autofocus><?php echo htmlspecialchars($post['menu']); ?></textarea>
+<textarea name="menu" rows="15" placeholder="お問い合わせ内容" required autofocus><?php echo htmlspecialchars($post['menu']); ?></textarea>
 <?php if ($error['menu']==='blank'): ?>
 <p class="error-msg">お問い合わせ内容をご記入ください</p>
 <?php endif; ?>
